@@ -1,29 +1,127 @@
-.links {
+.navbar {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #2364aa;
-    background-color: #ededed;
-  }
-  
-  li {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2364AA;
+}
+li {
     float: left;
-  }
-  
-  .links a{
+}
+.li {
     display: block;
-    color: #666;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .links a:hover:not(.active) {
-    background-color: #59c3c3;
-  }
-  
-  .links a.active {
-    background-color: #2364aa;
-  }
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    min-height: 100%;
+    min-width: 100%;
+    background-color: #59C3C3;
+}
+.tom-life {
+    display: flex;
+    flex-flow: row wrap;
+    flex: auto;
+    margin: 5px;
+    border: 1px slod black;
+}
+.info {
+    display: inline;
+    float: left;
+    width: 1200px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 10px;
+} 
+.tip {
+    width: 50%;
+    height: 50%;
+}  
+.skill {
+    display: inline;
+    float: left;
+    width: 570px;
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+} 
+.talent {
+    height: 150px;
+    width: 150px;
+    float: right;
+}       
+.work {
+    display: inline;
+    float: left;
+    width: 570px;
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.places {
+    display: inline;
+    float: left;
+    width: 570px;
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+.collaborators {
+    display: inline;
+    float: left;
+    width: 570px;
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.awards {
+    display: inline;
+    float: left;
+    width: 1200px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+.tom {
+    float: right;
+    height: 150px;
+    width: 150px;
+    
+}
+.footer {
+    display: inline;
+    float: left;
+    width: 1200px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #2364AA;
+}   
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+  width: 50%;
+  height: 50%;
+}
+.th, td {
+    border: 1px solid #e01010;
+  text-align: left;
+  padding: 8px;
+}
+.award {
+    float: right;
+    height: 250px;
+    width: 400px;
+}
+    
+
