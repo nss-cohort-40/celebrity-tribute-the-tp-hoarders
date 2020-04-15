@@ -1,3 +1,7 @@
+/*
+Personal info page
+*/
+
 body {
     background-color: #EDEDED;
 }
@@ -7,19 +11,43 @@ body {
     text-align: center;
 }
 
-.mainbody {
+.personal__mainbody {
     display: flex;
     align-items: flex-start;
 }
 
-.leftside {
-    border: solid black 2px;
+.leftside__box {
+    border-style: dashed solid;
+    border-color: black;
+    border-width: 3px;
     margin: 10px;
     padding: 5px;
 }
 
-.rightside {
-    border: solid black 2px;
+.leftside__list1-item {
+    text-align: left;
+}
+
+.rightside__list2-item {
+    text-align: left;
+}
+
+.rightside__list3-item {
+    text-align: left;
+}
+
+.rightside__list4-item {
+    text-align: left;
+}
+
+.rightside__list5-item {
+    text-align: left;
+}
+
+.rightside__box {
+    border-style: dashed solid;
+    border-color: black;
+    border-width: 3px;
     margin: 10px;
     padding: 5px;
 }
@@ -41,3 +69,43 @@ body {
     width: 150px;
     height: 100px;
 }
+
+.katieholmes {
+    width: 150px;
+    height: 100px;
+}
+
+/* 
+Main page navbar
+*/
+.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #2364aa;
+    background-color: #ededed;
+  }
+  
+  /*
+  li {
+    float: left;
+  }
+  */
+
+  .links a{
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .links a:hover:not(.active) {
+    background-color: #59c3c3;
+  }
+  
+  .links a.active {
+    background-color: #2364aa;
+  }
