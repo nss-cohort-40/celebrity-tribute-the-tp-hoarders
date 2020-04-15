@@ -1,3 +1,69 @@
+/* NEWSFEED CSS */
+
+.newsfeed {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.newsfeed__leftside {
+    display: flex;
+    flex: 0 0 60%;
+    flex-flow: row wrap;
+}
+
+.newsfeed__rightside {
+    display: flex;
+    flex: auto;
+    flex-flow: column nowrap;
+}
+
+.newsfeed__section {
+    margin: 1em;
+    padding: .5em;
+    flex: 1 1 20%;
+}
+
+.newsfeed__aside {
+    padding: .6em;
+
+}
+
+.button__tickets {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    background-color: #2364aa;
+    color: white;
+    border: none;
+    text-decoration: none;
+    padding: 1em 0 1em 0;
+    margin-bottom: 1em;
+    font-size: 18px;
+}
+
+.section__video {
+    min-height: 20em;
+    margin: 1em;
+    flex: 0 1 100%;
+    object-fit: cover;
+}
+
+.newsfeed__section a {
+    text-decoration: none;
+}
+
+.imageGrid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imageGrid__column img {
+    float: left;
+    width: 166.6px;
+    height: 124.95px;
+    background-size: cover;
+}
+
 /*
 Personal info page
 */
@@ -79,6 +145,7 @@ body {
 /* 
 Main page navbar
 */
+
 .links {
     list-style-type: none;
     margin: 0;
@@ -87,26 +154,20 @@ Main page navbar
     border: 1px solid #2364aa;
     background-color: #ededed;
   }
-  
-  /*
-  li {
-    float: left;
-  }
-  */
 
-  .links a{
+.links a {
     display: block;
     color: #666;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .links a:hover:not(.active) {
+}
+
+.links a:hover:not(.active) {
     background-color: #59c3c3;
-  }
-  
-  .links a.active {
+}
+
+.links a.active {
     background-color: #2364aa;
-  }
+}
